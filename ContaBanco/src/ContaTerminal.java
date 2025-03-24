@@ -6,6 +6,7 @@ public class ContaTerminal {
         Cliente cliente = new Cliente ();
         
         System.out.print("Por favor, digite o número da Conta! ");
+        System.out.println("");
         cliente.setNumero(scanner.nextInt());
         scanner.nextLine();
     
